@@ -2,9 +2,9 @@ const AWS = require('aws-sdk');
 const fs = require('fs');
 
 AWS.config = new AWS.Config();
-AWS.config.accessKeyId = "AKIAJSI5ZERST63WJVIA";
-AWS.config.secretAccessKey = "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";
-AWS.config.region = "us-east-2";
+AWS.config.accessKeyId = "";
+AWS.config.secretAccessKey = "";
+AWS.config.region = "";
 
 export const saveToS3 = () => {
   const s3 = new AWS.S3();
